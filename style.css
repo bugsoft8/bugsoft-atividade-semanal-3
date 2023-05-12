@@ -77,7 +77,18 @@ a {
     font-size: 14px;
     color: rgba(33, 123, 244, 1);
 }
-
+.home_conteudo >h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    color: rgba(10, 9, 61, 1);
+}
+.home_conteudo >p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(101, 100, 100, 1);
+}
 
 
 
