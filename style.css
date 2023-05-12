@@ -52,12 +52,9 @@ a {
     background-color: rgb(33, 123, 244, 0.1);
     border-radius: 8px;
     border-style: none;
-}
-.home_btn-a >p {
     font-weight: 500;
     font-size: 12px;
     color: rgba(33, 123, 244, 1);
-
 }
 .home_btn-b {
     width: 162px;
@@ -66,8 +63,6 @@ a {
     border-radius: 14px;
     border-style: none;
     box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
-}
-.home_btn-b >p {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
@@ -78,12 +73,11 @@ a {
     background-color: none;
     border-radius: 14px;
     border: 1px solid rgb(33, 123, 244, 0.5);
-}
-.home_btn-c >p {
     font-weight: 500;
     font-size: 14px;
     color: rgba(33, 123, 244, 1);
 }
+
 
 
 
