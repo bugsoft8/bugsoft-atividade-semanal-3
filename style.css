@@ -20,7 +20,7 @@ a {
 }
 .header {
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-    border-bottom: 1px  solid #217cf41f; 
+    border-bottom: 1px  solid rgba(33, 124, 244, 0.1); 
 }
 .header {
     display: flex;
@@ -32,7 +32,7 @@ a {
 .header_btn {
     width: 123px;
     height: 50px;
-    background-color: #217BF4;
+    background-color: rgba(33, 123, 244, 1);
     box-shadow: 0px 7px 22px -6px #217BF457;
     border-radius: 14px;
     border-style: none;
@@ -45,9 +45,45 @@ a {
 
 
 
+/* ---------------------------- home ------------------------------------ */
+.home_btn-a {
+    width: 177px;
+    height: 36px;
+    background-color: rgb(33, 123, 244, 0.1);
+    border-radius: 8px;
+    border-style: none;
+}
+.home_btn-a >p {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(33, 123, 244, 1);
 
-
-
+}
+.home_btn-b {
+    width: 162px;
+    height: 62px;
+    background-color: #217BF4;
+    border-radius: 14px;
+    border-style: none;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+.home_btn-b >p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.home_btn-c {
+    width: 167px;
+    height: 62px;
+    background-color: none;
+    border-radius: 14px;
+    border: 1px solid rgb(33, 123, 244, 0.5);
+}
+.home_btn-c >p {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(33, 123, 244, 1);
+}
 
 
 
