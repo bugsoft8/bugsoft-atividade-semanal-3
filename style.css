@@ -4,7 +4,43 @@
 
 
 /* Lucas */
-
+.header_logo {
+    width: 143px;
+    height: 34px;
+}
+.header_lista {
+    list-style-type: none;
+    display: flex;
+    width: 306px;
+    height: 14px;
+    justify-content: space-between;
+}
+.header {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    border-bottom: 1px 10% solid #217BF4;
+    
+}
+.header {
+    display: flex;
+    width: 1440px;
+    height: 68px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_btn {
+    width: 123px;
+    height: 50px;
+    background-color: #217BF4;
+    box-shadow: 0px 7px 22px -6px #217BF457;
+    border-radius: 14px;
+    border-style: none;
+}
+.header_btn >p {
+    font-family: ;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+}
 
 
 
