@@ -311,18 +311,23 @@ p.titulo {
     margin-top: 20px;
 }
 
-p.conteudo{
+p.conteudo {
     margin-top: 14px;
     color: rgba(101, 100, 100, 1);
     font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-
-
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
+p.conteudo-txt {
+    height: 78px;
+    margin-top: 14px;
+    color: rgba(101, 100, 100, 1);
+    font-size: 14.6px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 
