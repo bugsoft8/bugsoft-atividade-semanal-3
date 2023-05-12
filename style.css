@@ -226,9 +226,50 @@
 
 
 /* Gustavo */
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
 
+.text-initial {
+    color: #217BF4;
+    height: 18px;
+    width: 135px;
+}
 
+.text-middle {
+    margin-top: 9px;
+    height: 36px;
+    width: 441px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
 
+.text-foot {
+    text-align: center;
+    width: 421px;
+    height: 56px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-member {
+    height: 182px;
+    width: 522px;
+
+}
 
 
 
@@ -863,142 +904,3 @@
 
 
 /* Feliponi */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
