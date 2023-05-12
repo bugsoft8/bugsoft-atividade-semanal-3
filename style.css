@@ -15,10 +15,12 @@
     height: 14px;
     justify-content: space-between;
 }
+a {
+    text-decoration: none;
+}
 .header {
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-    border-bottom: 1px 10% solid #217BF4;
-    
+    border-bottom: 1px  solid #217cf41f; 
 }
 .header {
     display: flex;
