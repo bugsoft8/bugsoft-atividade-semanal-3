@@ -260,17 +260,31 @@
     color: #656464;
 }
 
-.container{
+.container {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    width: 522px;
+    height: 182px;
 }
 
 .container-member {
-    height: 182px;
-    width: 522px;
-
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
 }
 
+.container-grupos {}
+
+.container-forum {}
+
+.container-custom {}
+
+.container-list {}
+
+.container-scroll {}
 
 
 
