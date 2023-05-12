@@ -226,6 +226,11 @@
 
 
 /* Gustavo */
+.evaluation {
+    display: flex;
+
+
+}
 
 .box-rating {
     display: flex;
@@ -250,18 +255,19 @@
 .member {
     display: flex;
     align-items: center;
-    
+
 }
 
-.member_img > img {
+.member_img>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 .cor-azul {
     color: #217BF4;
-    margin-top: 105px;  
+    margin-top: 105px;
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
@@ -289,17 +295,130 @@
     font-size: 16px;
 }
 
-.star-aval{
+.star-aval {
     display: flex;
     align-items: center;
     width: 138px;
-    gap: 12.5px; 
+    gap: 12.5px;
 }
 
 .star-aval>p {
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
+}
+
+/*-------box-awards---------*/
+.box-awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 44px;
+    width: 336px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    margin-top: 96px;
+}
+
+.trophy {
+    display: flex;
+    align-items: center;
+    width: 138px;
+    gap: 12.5px;
+
+}
+
+.trophy>p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon_img>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.little-footer-awards {
+    color: #4A4A56;
+    width: 157px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.box-rating,
+.box-awards {
+    margin-right: 24px;
+}
+
+/*------achievement-------*/
+.achievement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 96px;
+    height: 322px;
+    width: 381px;
+
+}
+
+.achievement>p {
+    width: 149px;
+    height: 18px;
+    color: #217BF4;
+    margin-top: 84px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.principal-title {
+    width: 381px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 93px;
+    margin-right: 135px;
+    margin-block-end: 10px;
+}
+
+.text-achievement {
+    color: #656464;
+    width: 365px;
+    height: 84px;
+    line-height: 26px;
+    margin-left: 93px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 58px;
+    margin-top: 38px;
+    margin-left: 93px;
+    margin-right: 324px;
+}
+
+.btn>button {
+    border: none;
+    background-color: #217BF4;
+    color: white;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    width: 192px;
+    height: 58px;
+    border-radius: 14px;
 }
 
 
