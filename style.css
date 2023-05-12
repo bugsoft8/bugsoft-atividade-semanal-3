@@ -508,7 +508,7 @@
             height: 560px;
             display: flex;
             justify-content: space-around;
-            background: rgba(229, 240, 253, 1);
+            background: rgba(229, 240, 253, 1)
 
 
         }
@@ -577,8 +577,9 @@
 
         /* Caixas da direita */
 
-        .right_aplication{
-            background: linear-gradient();
+        .right_aplication > img {
+            -webkit-mask-image: linear-gradient(to right, transparent, black 7%, black 90%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 7%, black 90%, transparent);
         }
 
 
