@@ -228,6 +228,8 @@
 /* Gustavo */
 .evaluation {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -369,17 +371,16 @@
     margin-top: 96px;
     height: 322px;
     width: 381px;
-
 }
 
 .achievement>p {
     width: 149px;
     height: 18px;
     color: #217BF4;
-    margin-top: 84px;
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
+    margin-block-end: 10px;
 }
 
 .principal-title {
@@ -388,7 +389,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
-    margin-left: 93px;
     margin-right: 135px;
     margin-block-end: 10px;
 }
@@ -398,7 +398,6 @@
     width: 365px;
     height: 84px;
     line-height: 26px;
-    margin-left: 93px;
 }
 
 .btn {
@@ -407,7 +406,6 @@
     width: 192px;
     height: 58px;
     margin-top: 38px;
-    margin-left: 93px;
     margin-right: 324px;
 }
 
@@ -421,7 +419,20 @@
     border-radius: 14px;
 }
 
+.cor-azul-icon {
+    color: #217BF4;
+    margin-top: 105px;
+    font-weight: 18;
+    font-size: 16px;
+    line-height: 18px;
+}
 
+.cor-cinza-icon {
+    color: #5D5B70;
+    font-weight: 18;
+    font-size: 16px;
+    line-height: 18px;
+}
 
 
 
