@@ -1068,4 +1068,18 @@
     color: #2B2B39;
     border-style: none;
 }
+.footer_bottom {
+    width: 1440px;
+    height: 96px;
+    background: #20202D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F6F6F6;
+}
+.footer_bottom >p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px
+}
 
