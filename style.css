@@ -1027,5 +1027,45 @@
     color: #E7E7E7;
     line-height: 46px;    
 }
-
+.footer_direita {
+    width: 339px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_direita >h3  {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.footer_direita >p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E7E7E7;
+}
+.footer_direita >input {
+    width: 339px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 255, 255, 0.85);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.0125em;
+    padding: 24px;
+}
+.footer_direita >button {
+    width: 126px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2B2B39;
+    border-style: none;
+}
 
