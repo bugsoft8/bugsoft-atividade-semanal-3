@@ -863,9 +863,54 @@
 
 
 /* Feliponi */
+.members {
+    width: 1440px;
+    height: 776px;
+    background: #FFFFFF;
+}
 
+.members_conteudo {
 
+}
 
+.conteudo_titulo {
+
+}
+
+.titulo_a {
+    width: 126px;
+    height: 18px;
+}
+
+.titulo_a > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #217bf4;
+}
+
+.titulo_h2 {
+    width: 362px;
+    height: 36px;
+}
+
+.titulo_h2 > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0a093d;
+}
+
+.titulo_p {
+    width: 454px;
+    height: 56px;
+}
+
+.titulo_p > p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: #656464;
+}
 
 
 
