@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 .header {
-    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    background: transparent;
     border-bottom: 1px  solid rgba(33, 124, 244, 0.1); 
 }
 .header {
@@ -94,6 +94,7 @@ a {
     line-height: 28px;
     color: rgba(101, 100, 100, 1);
 }
+
 
 
 
