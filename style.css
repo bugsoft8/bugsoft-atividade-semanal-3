@@ -178,11 +178,11 @@ a {
     font-size: 18px;
     color: #171648;
     list-style-image: url(components/images/about-us/bullet.svg);
+    margin-top: 10px;
 }
-/* ::marker {
-    color: #217BF4;
-    list-style-image: url(components/images/about-us/bullet.svg);
-} */
+.about_lista {
+    margin-top: 26px;
+}
 .img_01 {
     width: 270px;
     height: 368px;
@@ -212,6 +212,7 @@ a {
     flex-direction: column;
     width: 406px;
     height: 346px;
+    margin-bottom: 20px;
 }
 .about_textos >h2 {
     margin-top: 10px;
@@ -219,10 +220,7 @@ a {
 .about_textos >p {
     margin-top: 16px;
 }
-.about_lista {
-    margin-top: 53px;
-    gap: 40px;
-}
+
 
 
 
