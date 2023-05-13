@@ -146,6 +146,11 @@ a {
     align-items: center;
 }
 /* -------------------------------------- about ---------------------------------------- */
+.about {
+    width: 1440px;
+    height: 672px;
+    background-color: #FFFFFF;
+}
 
 
 
