@@ -75,7 +75,7 @@ a {
 .home_btn-c {
     width: 167px;
     height: 62px;
-    background-color: none;
+    background-color: transparent;
     border-radius: 14px;
     border: 1px solid rgb(33, 123, 244, 0.5);
     font-weight: 500;
@@ -101,9 +101,26 @@ a {
 .conteudo_texto--btn {
     display: flex ;
     flex-direction: column;
+    width: 515px;
+    height: 366px;
+}
+.conteudo_texto--btn > h1 {
+    margin-top: 20px;
+}
+.conteudo_texto--btn > p {
+    margin-top: 18px;
+}
+.home_btn {
+    margin-top: 42px;
 }
 .home_conteudo {
     display: flex ;
+    width: 1169.52px;
+    height: 501.47px;
+    margin-top: 72px;
+    margin-left: 135px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
