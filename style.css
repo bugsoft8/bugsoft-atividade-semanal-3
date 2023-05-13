@@ -997,8 +997,35 @@
 
 
 
-
-
-
+/* ----------------------------------------- footer ------------------------------------*/
+.footer {
+    width: 1440px;
+    height: 485px;
+    background-color: #2B2B39;
+}
+.lista_footer {
+    display: flex;
+    width: 668px;
+    height: 226px;
+    justify-content: space-between;
+}
+.footer_lista {
+    display: flex;
+    flex-direction: column;
+}
+.footer_lista >h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.lista_componente {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E7E7;
+    line-height: 46px;    
+}
 
 
