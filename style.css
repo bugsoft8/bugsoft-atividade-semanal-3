@@ -151,6 +151,11 @@ a {
     height: 672px;
     background-color: #FFFFFF;
 }
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .about_textos >a {
     font-weight: 500;
     font-size: 18px;
@@ -172,7 +177,12 @@ a {
     font-weight: 500;
     font-size: 18px;
     color: #171648;
+    list-style-image: url(components/images/about-us/bullet.svg);
 }
+/* ::marker {
+    color: #217BF4;
+    list-style-image: url(components/images/about-us/bullet.svg);
+} */
 .img_01 {
     width: 270px;
     height: 368px;
@@ -185,7 +195,34 @@ a {
     width: 265px;
     height: 238px;
 }
-
+.about_img {
+    display: flex;
+    width: 560px;
+    height: 508px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_direita {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.about_textos {
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+    height: 346px;
+}
+.about_textos >h2 {
+    margin-top: 10px;
+}
+.about_textos >p {
+    margin-top: 16px;
+}
+.about_lista {
+    margin-top: 53px;
+    gap: 40px;
+}
 
 
 
