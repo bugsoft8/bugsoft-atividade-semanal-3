@@ -46,6 +46,11 @@ a {
 
 
 /* ---------------------------- home ------------------------------------ */
+.home {
+    width: 1440px;
+    height: 746px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
 .home_btn-a {
     width: 177px;
     height: 36px;
@@ -89,6 +94,7 @@ a {
     line-height: 28px;
     color: rgba(101, 100, 100, 1);
 }
+
 
 
 
