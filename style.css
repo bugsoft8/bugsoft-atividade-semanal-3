@@ -151,7 +151,40 @@ a {
     height: 672px;
     background-color: #FFFFFF;
 }
-
+.about_textos >a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #217BF4;
+}
+.about_textos >h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+}
+.about_textos >p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+.lista_about {
+    font-weight: 500;
+    font-size: 18px;
+    color: #171648;
+}
+.img_01 {
+    width: 270px;
+    height: 368px;
+}
+.img_02 {
+    width: 265px;
+    height: 238px;
+}
+.img_03 {
+    width: 265px;
+    height: 238px;
+}
 
 
 
