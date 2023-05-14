@@ -874,7 +874,12 @@
 }
 
 .conteudo_titulo {
-
+    width: 454px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .titulo_a {
