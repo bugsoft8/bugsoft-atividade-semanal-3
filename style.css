@@ -662,6 +662,17 @@
     width: 1440px;
     height: 671px;
     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.news_titulos {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .news_titulos >a {
     text-decoration: none;
@@ -695,7 +706,7 @@
     display: flex;
 }
 .column_titulo > hr {
-    margin-top: 13px;
+    margin-top: 20px;
     margin-right:14px;
 }
 .column_titulo > h3 {
@@ -714,6 +725,7 @@
 .column_link--blue {
     color: #217BF4;
 }
+
 
 
 
