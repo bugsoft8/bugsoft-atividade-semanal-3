@@ -867,10 +867,16 @@
     width: 1440px;
     height: 776px;
     background: #FFFFFF;
+    place-items: center;
+    display: grid;
 }
 
 .members_conteudo {
-
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .conteudo_titulo {
