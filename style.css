@@ -952,6 +952,9 @@
 }
 
 .conteudo_perfil {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
