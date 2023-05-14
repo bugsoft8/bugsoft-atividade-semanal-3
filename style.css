@@ -964,6 +964,8 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .perfil_box > img {
@@ -971,15 +973,28 @@
     height: 174px;
 }
 
-.perfil_box > h3 {
+.box_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_info > h3 {
     font-weight: 600;
     font-size: 24px;
     color: #2F2C4A;
+    line-height: 26px;
 }
 
-.perfil_box > p {
+.box_info > p {
     font-weight: 400;
     font-size: 16px;
+    color: #656464;
+    margin-top: 14px;
+}
+
+.perfil_box--true {
+    border: none;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
 }
 
 
