@@ -951,6 +951,37 @@
     color: #FFFFFF;
 }
 
+.conteudo_perfil {
+
+}
+
+.perfil_box {
+    width: 270px;
+    height: 316px;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil_box > img {
+    width: 170px;
+    height: 174px;
+}
+
+.perfil_box > h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2F2C4A;
+}
+
+.perfil_box > p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 
 
