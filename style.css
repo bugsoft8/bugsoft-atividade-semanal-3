@@ -1054,9 +1054,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    margin-top: 18px;
     color: #E7E7E7;
 }
 .input_btn {
+    margin-top: 32px;
     display: grid;
     grid-template-columns: 213px 126px;
     grid-template-rows: 50px ;
@@ -1096,6 +1098,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 85px;
     color: #F6F6F6;
 }
 .footer_bottom >p {
@@ -1103,5 +1106,10 @@
     font-size: 14px;
     line-height: 14px
 }
-
+.input_btn ::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #717179;    
+}
 
