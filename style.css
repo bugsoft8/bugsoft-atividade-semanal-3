@@ -836,8 +836,73 @@ a {
 
 
 /* Alexandre */
-
-
+.news {
+    width: 1440px;
+    height: 671px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.news_titulos {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.news_titulos >a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+}
+.news_titulos >h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+}
+.news_content {
+    display: flex;
+    width: 1160px;
+    height: 459px;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_column {
+    display: flex;
+    width: 340px;
+    height: 459px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.column_titulo {
+    display: flex;
+}
+.column_titulo > hr {
+    margin-top: 20px;
+    margin-right:14px;
+}
+.column_titulo > h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F2C4A;
+}
+.column_link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #656464;
+}
+.column_link--blue {
+    color: #217BF4;
+}
 
 
 
