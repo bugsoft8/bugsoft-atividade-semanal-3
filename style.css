@@ -580,8 +580,85 @@ a {
 
 /* Gabriel */
 
+/* Caixas da esquerda */
+        .aplication{
+            width: auto;
+            height: 560px;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(229, 240, 253, 1)
 
 
+        }
+
+        /*  */
+        .left_aplication{
+            text-align: left;
+        }
+
+        /*  */
+        .a_aplication {
+            margin-top: 122px;
+        }
+
+    .a_aplication > a{
+        text-decoration: none;
+        color: rgba(33, 123, 244, 1);
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+        /* letter-spacing: 0em; */
+        text-align: left;
+    }
+
+        /*  */
+    .h2_aplication > h2{
+        margin-top: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 52px;  
+        }
+
+    /*  */
+    .p_aplication > p{
+        margin-top: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        }
+
+    /*  */
+    
+.boxs_apple_and_play{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    margin: 0%;
+    height: 52px;
+
+    margin-top: 36px;
+    margin-left: -25px;
+}
+
+        /*         
+        .box_apple_aplication{
+        }
+        .box_playstore_aplication{
+       
+        } */
+
+
+        /* Caixas da direita */
+
+        .right_aplication > img {
+            -webkit-mask-image: linear-gradient(to right, transparent, black 7%, black 90%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 7%, black 90%, transparent);
+        }
 
 
 
