@@ -220,7 +220,7 @@ a {
 .about_textos >p {
     margin-top: 16px;
 }
-/*---------------------------------------------------------------------------- evaluation ----------------------------------------------------------------------*/
+/*------------------------------------------------------------ evaluation ------------------------------------------------*/
 .evaluation {
     width: 1440px;
     height: 490px;
@@ -428,7 +428,7 @@ a {
     font-size: 16px;
     line-height: 18px;
 }
-/*--------------------------------------------------------------- comunidade -------------------------------------------------------------------*/
+/*--------------------------------------------------------------- comunidade -------------------------------------------------------------*/
 .community {
     width: 1440px;
     height: 1069px;
@@ -941,3 +941,280 @@ a {
 
 
 /* Feliponi */
+.members {
+    width: 1440px;
+    height: 776px;
+    background: #FFFFFF;
+    place-items: center;
+    display: grid;
+}
+
+.members_conteudo {
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo_titulo {
+    width: 454px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_a {
+    width: 126px;
+    height: 18px;
+}
+
+.titulo_a > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #217bf4;
+}
+
+.titulo_h2 {
+    width: 362px;
+    height: 36px;
+}
+
+.titulo_h2 > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0a093d;
+}
+
+.titulo_p {
+    width: 454px;
+    height: 56px;
+}
+
+.titulo_p > p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: #656464;
+    text-align: center;
+}
+
+.conteudo_btn {
+    width: 474px;
+    height: 72px;
+    background: rgba(33, 123, 244, 0.06);
+    border-radius: 14px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+    padding-right: 8px;
+    
+}
+
+.btn_enable {
+    font-weight: 500;
+    font-size: 16px;
+    border-style: none;
+    color: rgba(47, 44, 74, 0.8);
+    background: transparent;
+}
+
+.btn_enable--true {
+    width: 150px;
+    height: 56px;
+    background-color: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+    border-radius: 14px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.conteudo_perfil {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.perfil_box {
+    width: 270px;
+    height: 316px;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.perfil_box > img {
+    width: 170px;
+    height: 174px;
+}
+
+.box_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_info > h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2F2C4A;
+    line-height: 26px;
+}
+
+.box_info > p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+    margin-top: 14px;
+}
+
+.perfil_box--true {
+    border: none;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
