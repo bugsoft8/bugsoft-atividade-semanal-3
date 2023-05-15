@@ -220,9 +220,7 @@ a {
 .about_textos >p {
     margin-top: 16px;
 }
-
-
-/* Gustavo */
+/*---------------------------------------------------------------------------- evaluation ----------------------------------------------------------------------*/
 .evaluation {
     width: 1440px;
     height: 490px;
@@ -430,204 +428,93 @@ a {
     font-size: 16px;
     line-height: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------------------------------------------------- comunidade -------------------------------------------------------------------*/
+.community {
+    width: 1440px;
+    height: 1069px;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+.conteudo_community {
+    width: 1088px;
+    height: 956px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 176px;
+}
+.community_text {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.community_text >a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+}
+.community_text >h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+}
+.community_text >p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    text-align: center;
+}
+.community_column {
+    width: 1088px;
+    height: 634px;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 522px;
+    height: 634px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card {
+    width: 522px;
+    height: 182px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card >img {
+    margin-top: -20px;
+}
+.card_text {
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+}
+.card_text >h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+    margin-top: 46px;
+    margin-bottom: 14px;
+}
+.card_text >p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+}
 
 
 
