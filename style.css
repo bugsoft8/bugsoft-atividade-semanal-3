@@ -306,7 +306,7 @@ a {
 
 .cor-cinza {
     color: #5D5B70;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 18px;
 }
@@ -314,8 +314,13 @@ a {
 .text {
     width: 274px;
     height: 78px;
+}
+
+.text > p {
+    font-size: 16px;
     line-height: 26px;
     color: #8C8C8C;
+    font-weight: 400;
 }
 
 .little-footer {
@@ -345,6 +350,7 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 44px;
+    
     width: 336px;
     height: 340px;
     background: #FFFFFF;
@@ -398,13 +404,12 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 96px;
+    margin-left: 110px;
     height: 322px;
     width: 381px;
 }
 
 .achievement>p {
-    width: 149px;
-    height: 18px;
     color: #217BF4;
     font-weight: 500;
     font-size: 18px;
@@ -451,21 +456,21 @@ a {
 .cor-azul-icon {
     color: #217BF4;
     margin-top: 105px;
-    font-weight: 18;
+    font-weight: 600;
     font-size: 16px;
     line-height: 18px;
 }
 
 .cor-cinza-icon {
-    color: #5D5B70;
-    font-weight: 18;
+    color: rgba(93, 91, 112, 1);
+    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
 }
 /*--------------------------------------------------------------- comunidade -------------------------------------------------------------*/
 .community {
     width: 1440px;
-    height: 1069px;
+    height: 1000px;
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
 }
 
@@ -709,7 +714,7 @@ a {
 /*--------------------------------------- aplication -----------------------------------------*/
 /* Caixas da esquerda */
 .aplication {
-    width: auto;
+    width: 1440px;
     height: 560px;
     display: flex;
     justify-content: space-around;
